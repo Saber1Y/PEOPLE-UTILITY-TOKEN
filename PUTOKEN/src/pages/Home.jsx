@@ -4,12 +4,12 @@ import styles from '../style';
 import {
   Business,
   CardDeal,
-  Clients,
+
   Hero,
   Stats,
   Choose,
 } from '../components';
-import Marketplace from '../components/Marketplace';
+// import Marketplace from '../components/Marketplace';
 
 const Home = () => {
   return (
@@ -26,7 +26,6 @@ const Home = () => {
           <Business />
           <CardDeal />
           <Choose />
-          <Clients />
         </div>
       </div>
     </>
