@@ -21,7 +21,7 @@ const Navbar = () => {
 				{navLinks.map((nav, index) => (
 					<li
 						key={nav.id}
-						className={`font-normal font-normal cursor-pointer text-[18px] ${
+						className={`font-normal hover:text-[#870754] cursor-pointer text-[18px] ${
 							index === navLinks.length - 1 ? 'mr-0' : 'mr-10'
 						} text-white`}>
 						<Link to={`/${nav.id}`}>{nav.title}</Link>

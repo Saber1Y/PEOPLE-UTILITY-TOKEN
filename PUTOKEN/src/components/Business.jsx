@@ -31,6 +31,7 @@ const Business = () => {
 	return (
 		<section
 			id='featured'
+			data-aos="zoom-out-down"
 			className={layout.section}>
 			<div className={layout.sectionInfo}>
 				<h2 className={`${styles.heading2} font-normal text-gradient`}>
@@ -49,7 +50,7 @@ const Business = () => {
 					<Button styles='mt-10' />
 				</div>
 			</div>
-			<div className={`${layout.sectionImg} flex-col`}>
+			<div className={`${layout.sectionImg} flex-col cursor-pointer`}>
 				{features.map((feature, index) => (
 					<FeatureCard
 						key={feature.id}
